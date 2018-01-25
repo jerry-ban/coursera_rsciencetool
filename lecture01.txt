@@ -1,0 +1,116 @@
+# *****
+Getting Data Overview
+# *****
+Raw vs. tidy data
+Downloading files
+Reading data: Excel, XML, JSON, MySQL, HDF5, web...
+Merging data
+Reshaping data
+Summarizing data
+Finding and replacing
+Data resources
+
+
+
+# *****
+Exploratory Analysis Content
+# *****
+Principles of analytic Graphics
+Exploratory graphs
+Plotting Systems in R: base/lattice/ggplot2
+Hierarchical clustering
+K-means clustering
+Dimension reduction
+
+
+Principles of Analytic Graphics
+principle-1: Show comparisons
+p-2: Show causality, mechanize, explanation
+p-3: show multivariate data
+p-4: integrate multiple modes of evidence
+p-5: describe and document the evidence
+p-6: content is king
+
+
+
+
+# *****
+Reproducible Research Overview
+# *****
+structre of a data analysis
+organizing a data analysis
+markdown
+laTeX
+R markdown
+Evidence-based data analysis
+RPubs
+
+Steps in data analysis:
+define the question
+defne the ideal data set
+determine what data you can access
+obtain the data
+clean the data
+exploratory data analysis
+statistical predicton/modeling
+interpret results
+challenge results
+synthesize/write up results
+create reproducible code
+
+
+
+# *****
+Statistical Inference overview
+# *****
+basic probability
+likelihood
+commmon distributions
+asymptotics
+confidence intervals
+hypothesis tests
+power
+bootstrapping
+non-parametric tests
+basic bayesian statistics
+
+
+
+
+# *****
+Regression Models Overview
+# *****
+y: called the regressand, endogenous variable, response variable, measured variable, criterion variable, or dependent variable 
+x:  called regressors, exogenous variables, explanatory variables, covariates, input variables, predictor variables, or independent variables
+#####################################
+Linear regression
+Multiple Regression
+confounding
+residuals and diagnositics
+prediction using linear models
+model misspecification
+scatterplot smoothing/splines
+machine linearning via regression
+resampling inference in regression, bootstrapping, permutation tests
+weighted regression
+mixed models(random intercepts)
+
+
+# *****
+Practical Machine learning overview
+# *****
+prediction study design
+types of errors
+cross validation
+the caret package
+plotting for prediction
+preprocessing
+predicting with regression
+predicting with trees
+boosting
+bagging
+model blending
+forecasting
+
+
+
