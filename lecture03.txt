@@ -1,0 +1,85 @@
+#*****
+Conceptual Issues
+#*****
+
+# in approximate order of difficulty
+Descriptive
+Exploratory
+Inferential
+Predictive
+Causal
+Mechanistic
+
+
+#*****
+Descriptive:
+#*****
+Goal: describe a set of data
+
+the first kind of data analysis performed
+commonly applied to census data
+the description and interpretation are different steps
+descriptions can usally not be generalized without additional statistical modeling
+
+http://books.google.com/ngrams
+
+
+#*****
+Exploratory
+#*****
+Goal: Find relationships you didn't know about
+
+Exploratory models are good for discovering new connections
+they are also useful for defining future studies
+exploratory analyses are usually not the final say
+exploratory analyses alone should not be used for generalizing/predicting
+correlation DOES NOT imply causation
+
+
+#*****
+Inferential analysis
+#*****
+Goal: Use a relatively small sample of data to say sth about a bigger population 
+Inference is commonly the goal of statistical models
+Interence involves estimating both the quantity you care about and your uncertainy about your estimate
+Inference depends heavily on both the population and the sampling scheme
+
+
+#*****
+Predictive analysis
+#*****
+Goal: To use the data on some objects to predict values for another object
+ to use the data on some objects you collect the data on, to predict the values for another object for the next observation that comes to the door. 
+
+if X predicts Y it does not mean that X causes Y
+Accurate prediction depends heavily on measuring the right variables
+Although where are better and worse prediction models, more data and a simple model works really well
+Prediction is very hard, especially about the future references
+
+
+#*****
+Mechanistic analysis
+#*****
+rarely in rarely covered in data science.
+Goal: Understand the exact changes in variables that lead to changes in ohter variables for individual objects
+
+Incredibly hard to infer, except in simple situations
+usually modeled by a deterministic set of equations(physicalengineering science)
+Generally the random component of the data is measurement error
+If the equations are known but the parameters are not, they may be inferred with data analysis
+
+
+
+#*****
+Causal analysis
+#*****
+Goal: to find out what happens to one variable when you make another variable change
+
+usually randomized studies are required to identify causation
+There are approaches to inferring causation in anon-randomized studies, but they are complicated and sensitive to assumption
+Causal relationships are usually identified as average effects, but may no apply to every individual
+Causal models are usually the "gold standard" for data analysis
+
+
+
+

@@ -1,0 +1,102 @@
+#*****
+CLI(command line interface)
+#*****
+pwd
+clear
+ls -al
+cd  ~ / ..
+mkdir
+touch
+cp
+rm -r
+mv
+date
+echo
+
+
+#*****
+Git (version control)
+#*****
+
+git config --global user.name "username"
+git config --global user.email "my@email"
+git config --list
+exit
+
+
+#   github is free cloud version with
+# create your own
+git init
+git remote add origin remote_repo_address
+git commit -m "first
+
+# clone others, first fork other's repo to your repos, then
+git clone remote_repo_address
+
+git add .  #add all new files/folders
+git add -u #updates tracking for files that changed names or deleted
+git add -A #does both of previous
+
+# do above before committing
+git commit -m "message"
+# this only update local repo
+
+git push  # puch changes to remote repo you cloned or created
+
+git checkout -b branchname  #create a branch
+git branch  #to see what branch you are on
+git checkout master  # switch back to the master branch
+
+# if many people work on the same branch, or you fork someone's repo and to merge your changes
+#  to do so need to use pull request (this is github feature)
+
+
+
+#*****
+basic markdown
+#*****
+(MD button in rstudio for quick guide, or daringfireball.net/projects/markdown)
+
+markdown is a txt file, formated a simply way, so github/rstudio can recognize it
+
+Headings: (compared to html heading tags)
+##This is a secondary heading
+###This is a tertiary heading
+
+Unordered list:
+*first item in list
+*second item in list
+*third item in list
+
+
+#*****
+Install R packages
+#*****
+packages: CRAN, Bioconductor Project
+
+available.packages() #to get available packages on CRAN
+#use task view to view packages for topics
+
+install.packages("slidify")
+install.packages(c("slidify", "ggplot2", "devtools"))
+
+
+# install an R package fro mbioconductor project
+source("http://bioconductor.org/biocLite.R")
+biocLite()
+biocLite(c("GenomicFeatures", "AnnotationDbi"))
+
+# after installation, use library() to load it to be used before using
+library(ggplot2) #do not put package name quotes, namely library("ggplot2") is wrong
+search()  # after a package loaded, it will be attached to the top of the search list
+
+#*****
+Install R Tools
+#*****
+# major for windows
+#to check if a package installed,
+find.package("devtools")
+
+find_rtools()  # to verify Rtools installation
+
+
